@@ -12,3 +12,4 @@ class SingletonFive:
 		self.name = name
 
 objs = [SingletonFive(str(n)) for n in range(10)]
+print(len(objs))
